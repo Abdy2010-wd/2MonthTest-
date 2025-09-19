@@ -19,7 +19,5 @@ class Tesla(ElectricCar, Car):
         super().start()
         print("Tesla ready")
 
-print(Tesla.mro())
-
 # Проверяем запуск
 Tesla().start()
